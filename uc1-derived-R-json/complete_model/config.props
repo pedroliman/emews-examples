@@ -1,0 +1,9 @@
+model.archive = /Users/nick/Documents/repos/wintersim_2016/uc1/jzombies/output/complete_model.jar
+batch.params.file = scenario.rs/batch_params.xml
+ssh.key_dir = /Users/nick/.ssh
+poll.frequency = 60.0
+model.output = /Users/nick/Documents/repos/wintersim_2016/uc1/jzombies/output
+
+vm.arguments = -Xmx512M
+local.0.instances = 2
+local.0.working_directory = /var/folders/31/yd0l22kx35zgy1wbnc8p7gbr0000gr/T/

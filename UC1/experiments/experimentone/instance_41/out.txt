@@ -1,0 +1,1 @@
+41	randomSeed	2,human_count	200,zombie_count	10,human_step_size	3.5,zombie_step_size	1.0

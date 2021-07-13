@@ -1,0 +1,47 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>LocationData</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>jzombies.Agent</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1818020446</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>AgentType</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>AgentType</id>
+        <className>jzombies.Agent</className>
+        <methodName>getAgentType</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>X</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>X</id>
+        <className>jzombies.Agent</className>
+        <methodName>getX</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Y</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Y</id>
+        <className>jzombies.Agent</className>
+        <methodName>getY</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
